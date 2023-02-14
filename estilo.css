@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 0px;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.content {
+    display: flex;
+    gap: 0px 10px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 22px;
+}
+
+.card {
+    background-color: rgb(24, 119, 38);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.card:focus {
+    background-color: rgb(36, 180, 58);
+}
+
+li {
+    color: white;
+}
